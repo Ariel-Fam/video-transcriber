@@ -1,0 +1,6 @@
+moviepy
+streamlit
+streamlit-option_menu
+torch
+torchvision
+torchaudio
