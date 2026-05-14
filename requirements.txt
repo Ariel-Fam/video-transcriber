@@ -4,3 +4,6 @@ streamlit-option_menu
 torch
 torchvision
 torchaudio
+openai-whisper
+nltk
+textblob
