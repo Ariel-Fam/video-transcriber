@@ -5,7 +5,6 @@ import tempfile
 import os
 import nltk
 from textblob import TextBlob
-
 from nltk.tokenize import sent_tokenize
 
 
@@ -70,7 +69,7 @@ def main():
     download_punked_tab()
 
     st.subheader("📹 Video Transcription App")
-    st.write("Upload a video file, and this app will extract the audio and transcribe it for you.")
+    st.write("Upload a video file to the sidebar, and this app will extract the audio and transcribe it for you.")
 
     # Initialize session state variables
     if 'transcript' not in st.session_state:
